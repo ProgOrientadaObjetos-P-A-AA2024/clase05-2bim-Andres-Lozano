@@ -23,7 +23,7 @@ public class Principal {
         System.out.printf("Nombre:%s - Tarjeta:%s- Banco:%s\n",
                 menor.obtenerNombre(), 
                 menor.obtenerRepresentante().obtenerTarjeta().obtenerNumero(),
-                ban.obtenerNombre());
+                menor.obtenerRepresentante().obtenerTarjeta().obtenerBanco());
                 
         
     }
