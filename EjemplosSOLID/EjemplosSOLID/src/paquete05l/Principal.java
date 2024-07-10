@@ -10,6 +10,7 @@ package paquete05l;
 public class Principal {
 
     public static void main(String[] args) {
+        
         try {
             MenorEdad menor = new MenorEdad("Felipe");
             System.out.printf("Nombre:%s - Tarjeta:%s\n",

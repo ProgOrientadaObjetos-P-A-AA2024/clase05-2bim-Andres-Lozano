@@ -10,18 +10,18 @@ package paquete06l;
  * @author reroes
  */
 public class MayorEdad extends Persona{
-    private String tarjeta;
+    private TargetaCredito tarjeta;
     
-    public MayorEdad(String n, String tar){
+    public MayorEdad(String n, TargetaCredito tar){
         super(n);
         tarjeta = tar;
     }
     
-    public void establecerTarjeta(String n){
+    public void establecerTarjeta(TargetaCredito n){
         tarjeta = n;
     }
     
-    public String obtenerTarjeta(){
+    public TargetaCredito obtenerTarjeta(){
         return tarjeta;
     }
 
